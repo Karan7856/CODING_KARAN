@@ -1,0 +1,12 @@
+    Stack st(5);
+    st.push(1);
+    st.push(2);
+    st.push(3);
+    st.push(4);
+    cout<<st.gettop()<<endl;
+    st.push(5);
+    st.push(6);
+    cout<<st.gettop()<<endl;
+    cout<<"The new top is: ";
+    st.pop();
+    cout<<st.gettop()<<endl;

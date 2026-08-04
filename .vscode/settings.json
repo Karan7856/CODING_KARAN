@@ -1,0 +1,23 @@
+{
+    "files.associations": {
+        "ASCIIVALUE.C": "cpp",
+        "EXERCISE1A.C": "cpp",
+        "EXERCISE1B.C": "cpp",
+        "FOR_LOOP.C": "cpp",
+        "Q1.C": "cpp",
+        "Q4.C": "cpp",
+        "stdio.h": "c",
+        "Q2.C": "cpp",
+        "Q13.C": "cpp",
+        "iostream": "cpp",
+        "Q19.C": "cpp",
+        "Q22.C": "cpp",
+        "Q23.C": "cpp",
+        "Q25.C": "cpp",
+        "Q14IMP.C": "cpp",
+        "Q3.C": "cpp",
+        "ostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "disabled",
+    "livePreview.defaultPreviewPath": "/SIGMA WEB DEV/LECT29_EXERCISE3/index.html"
+}
