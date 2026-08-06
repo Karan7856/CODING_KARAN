@@ -21,16 +21,31 @@
 #     }
 
 
+# from fastapi import FastAPI
+# app=FastAPI()
+# @app.get("/")
+# def home():
+#     return{"message":"Home Page"}
+
+# @app.get("/about")
+# def about():
+#     return {"message":"About Page"}
+
+# @app.get("/students")
+# def students():
+#     return {"message":"All Students"}
+
 from fastapi import FastAPI
 app=FastAPI()
 @app.get("/")
 def home():
-    return{"message":"Home Page"}
+    return{
+        "message":"Hello Karan you have stared learning fastAPI"
+    }
 
-@app.get("/about")
-def about():
-    return {"message":"About Page"}
-
-@app.get("/students")
-def students():
-    return {"message":"All Students"}
+@app.get("/teacher")
+def teacher():
+    return{
+        "name":"Mr. Sharma",
+        "subject":"Mathematics"
+    }
